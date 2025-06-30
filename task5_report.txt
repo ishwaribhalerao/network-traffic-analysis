@@ -1,0 +1,36 @@
+
+Task 5 Report: Capture and Analyze Network Traffic Using Wireshark
+
+Task Overview
+-------------
+Objective: Capture live network packets and identify basic protocols and traffic types.
+Tool Used: Wireshark
+Date of Capture: June 30, 2025
+Interface Used: Wi-Fi (or your actual interface name)
+
+Packet Capture Summary
+----------------------
+File Name: task5_capture.pcapng
+Total Packets Captured: Example - 512 packets
+Capture Duration: Example - 2 minutes
+
+Protocols Identified
+--------------------
+Protocol    | Description                          | Observations
+----------- | ------------------------------------ | ------------------------------------------
+ARP         | Address Resolution Protocol          | Used to map IP addresses to MAC addresses
+DNS         | Domain Name System                   | Resolves domain names to IPs
+TCP         | Transmission Control Protocol        | Core transport protocol
+UDP         | User Datagram Protocol               | Lightweight transport for DNS, etc.
+HTTP        | Hypertext Transfer Protocol          | Web browsing traffic
+HTTPS       | Secure HTTP                          | Encrypted web traffic
+ICMP        | Internet Control Message Protocol    | Seen from ping or traceroute commands
+
+Notable Observations
+--------------------
+- DNS queries were made to resolve several domain names.
+- A mix of HTTP and HTTPS traffic was recorded during web browsing.
+- ICMP packets were detected, indicating ping or network diagnostics.
+- TCP handshake and session data confirmed reliable data transfers.
+
+
